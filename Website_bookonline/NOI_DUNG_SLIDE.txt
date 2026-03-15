@@ -1,0 +1,107 @@
+========================================
+NỘI DUNG CÁC SLIDE LUẬN VĂN
+========================================
+
+SLIDE 3: THÔNG TIN ĐỀ TÀI / MỤC TIÊU
+========================================
+
+Mục tiêu:
+
+• Hỗ trợ người dùng tìm kiếm và đặt mua sách online một cách dễ dàng, nhanh chóng.
+
+• Tích hợp thanh toán điện tử và dịch vụ vận chuyển, giúp xử lý trọn vẹn quy trình đặt hàng từ giỏ hàng đến giao sách.
+
+• Cung cấp công cụ quản trị tập trung cho admin, quản lý sách, kho, khách hàng, đơn hàng, khuyến mãi và báo cáo thống kê.
+
+
+SLIDE 4: NỘI DUNG THỰC HIỆN
+========================================
+
+• Tìm hiểu và vẽ sơ đồ cách hoạt động của một nhà sách online (khách hàng, quản lý, nhà xuất bản, nhà cung cấp...).
+
+• Thiết kế cơ sở dữ liệu để lưu trữ thông tin sách, danh mục, tác giả, nhà xuất bản, nhà cung cấp, độ tuổi, ngôn ngữ, khuyến mãi...
+
+• Thiết kế giao diện và luồng hoạt động cho website (trang chủ, danh sách sách, chi tiết, giỏ hàng, thanh toán, quản trị).
+
+• Lập trình phần xử lý phía máy chủ để xử lý đơn hàng, thanh toán VNPay/SePay, tích hợp đơn vị vận chuyển, gửi email.
+
+• Lập trình phần giao diện người dùng để tạo trang web hiện đại, dễ sử dụng trên máy tính và điện thoại.
+
+• Kiểm thử các chức năng và chỉnh sửa những lỗi phát hiện được.
+
+
+SLIDE 5: THÁCH THỨC GẶP PHẢI
+========================================
+
+Về lý thuyết:
+
+• Phân tích nhu cầu đa đối tượng
+• Thiết kế hệ thống có thể mở rộng và bảo trì dễ dàng.
+
+Về kỹ thuật:
+
+• Đảm bảo bảo mật thông tin người dùng.
+
+• Tối ưu hiệu năng cho hệ thống có nhiều truy cập.
+
+
+
+SLIDE 6: KẾT QUẢ
+========================================
+
+Chức năng:
+
+• Hoàn thiện các chức năng chính: tìm kiếm, xem chi tiết, giỏ hàng, đặt hàng, thanh toán, theo dõi đơn hàng, yêu thích, đánh giá.
+
+• Đã tích hợp thanh toán VNPay & SePay, đơn vị vận chuyển và gửi email thông báo.
+
+• Hệ thống quản trị hỗ trợ quản lý sách, danh mục, tác giả, nhà xuất bản, nhà cung cấp, khách hàng, đơn hàng, khuyến mãi/voucher và thống kê.
+
+Kiểm thử:
+
+• Kiểm thử thủ công các luồng nghiệp vụ chính của khách hàng và admin.
+
+
+SLIDE 7: KẾT LUẬN
+========================================
+
+Vai trò: Khách hàng
+Chức năng: Đăng nhập, Đăng ký, Đăng xuất, Tìm kiếm sách, Xem chi tiết sách, Thêm vào giỏ hàng, Quản lý giỏ hàng, Đặt mua sách, Thanh toán, Xem lịch sử đơn hàng, Đánh giá sách, Quản lý yêu thích.
+Trạng thái: Đạt
+
+Vai trò: Admin
+Chức năng: Quản lý tài khoản khách hàng, Quản lý sách, Quản lý danh mục, Quản lý tác giả, Quản lý nhà xuất bản, Quản lý nhà cung cấp, Quản lý đơn hàng, Quản lý khuyến mãi, Quản lý voucher, Xem thống kê bán hàng.
+Trạng thái: Đạt
+
+Vai trò: Nhà xuất bản / Nhà cung cấp
+Chức năng: Thông tin được lưu trữ và liên kết với từng cuốn sách để dễ theo dõi nguồn gốc.
+Trạng thái: Đạt
+
+Vai trò: Hệ thống
+Chức năng: Tự động cập nhật số lượng sách khi có đơn hàng, Gửi email thông báo sách mới cho người đăng ký nhận tin, Ghi lại nhật ký hoạt động để dễ theo dõi.
+Trạng thái: Đạt
+
+Vai trò: Khác
+Chức năng: Cấu hình bảo mật, Xử lý lỗi tự động, Phục vụ hình ảnh sách.
+Trạng thái: Đạt
+
+
+SLIDE 8: NHỮNG HẠN CHẾ VÀ HƯỚNG PHÁT TRIỂN
+========================================
+
+Hạn chế:
+
+• Chưa triển khai gợi ý sách cá nhân hóa theo từng người dùng 
+
+Hướng phát triển:
+
+• Mở rộng thêm các tiêu chí tìm kiếm và lọc nâng cao.
+
+• Tối ưu hóa hiệu suất xử lý dữ liệu lớn.
+
+• Xây dựng hệ thống log và giám sát lỗi.
+
+• Tích hợp hệ thống phản hồi và xử lý khiếu nại.
+
+• Hoàn thiện chức năng gợi ý sách thông minh.
+
